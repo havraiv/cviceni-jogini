@@ -23,14 +23,3 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
-
-.pose {
-  padding: 2rem;
-  width: 50%;
-  height: auto;
-  align-self: flex-start;
-}
-
-p {
-  line-height: 150%;
-}

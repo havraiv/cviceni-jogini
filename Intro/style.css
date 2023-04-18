@@ -7,3 +7,8 @@
   font-size: 3rem;
   color: black;
 }
+
+
+p {
+  line-height: 150%;
+}
