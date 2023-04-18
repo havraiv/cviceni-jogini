@@ -1,4 +1,4 @@
-const Header = (props) => {
+export const Header = (props) => {
   const { title, links } = props;
 };
 
