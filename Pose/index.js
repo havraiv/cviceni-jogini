@@ -1,5 +1,6 @@
 export const Pose = (props) => {
-  return `<img class="pose" src=${props} />`;
+  const { src } = props;
+  return `<img class="pose" src=${src} />`;
 };
 
 /*  */
