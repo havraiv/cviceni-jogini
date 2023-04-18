@@ -1,3 +1,9 @@
-export const Pose = (props) => {};
+export const Pose = (props) => {
+  return `<img class="pose" src="${props}" />`;
+};
 
-/* <img class="pose" src="img/yoga-pose.jpg" /> */
+/*  */
+
+// const poseHTML = {
+//   src: 'img/yoga-pose.jpg',
+// };

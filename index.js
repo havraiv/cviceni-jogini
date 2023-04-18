@@ -1,5 +1,6 @@
 import { Header } from './Header/index.js';
 import { Intro } from './Intro/index.js';
+import { Pose } from './Pose/index.js';
 console.log('funguju!');
 
 const headerHTML = {
@@ -16,6 +17,10 @@ const introHTML = {
          svoje tělo, pocity a emoce.`,
 };
 
+const poseHTML = {
+  src: 'img/yoga-pose.jpg',
+};
 const appContainer = document.querySelector('#app');
 
-appContainer.innerHTML += Header(headerHTML) + Intro(introHTML);
+appContainer.innerHTML +=
+  Header(headerHTML) + Intro(introHTML) + Pose(poseHTML);
