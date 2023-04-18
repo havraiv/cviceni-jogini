@@ -1,14 +1,13 @@
 export const Header = (props) => {
   const { title, links } = props;
+  return `<header>
+  <h1 class="site-title">${title}</h1>
+  <nav>
+    <a href="#">${links[0]}</a>
+    <a href="#">${links[1]}</a>
+    <a href="#">${links[2]}</a>
+    <a href="#">${links[3]}</a>
+    <a href="#">${links[4]}</a>
+  </nav>
+  </header>`;
 };
-
-/* <header>
-<h1 class="site-title">Jogíni</h1>
-<nav>
-  <a href="#">domů</a>
-  <a href="#">lekce</a>
-  <a href="#">náš tým</a>
-  <a href="#">události</a>
-  <a href="#">kontakt</a>
-</nav>
-</header> */
