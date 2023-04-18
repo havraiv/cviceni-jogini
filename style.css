@@ -24,16 +24,6 @@ body {
   flex-flow: row wrap;
 }
 
-.intro {
-  width: 50%;
-}
-
-.intro h2 {
-  font-weight: 300;
-  font-size: 3rem;
-  color: black;
-}
-
 .pose {
   padding: 2rem;
   width: 50%;
